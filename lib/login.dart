@@ -14,7 +14,7 @@ class _LoginState extends State<LoginScreen>{
       appBar: AppBar(
         title: Text ('Login'),
       ),
-      body: Padding(
+      body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children:<Widget> [
